@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(227, 225, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    background-color: rgb(248, 247, 255);
+    height: 50px;
+    
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.nav-left ul li {
+    margin: 0 15px;
+
+    
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.nav-left img {
+    width: 38px;
+    height: 30px;
+    align-items: center;
+    
+}
+
+.nav-right ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+    
+}
+
+.nav-right button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 15px;
+    
+}
+
+
+.header {
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* batas */
+
+h1 {
+    text-align: center;
+}
+
+.containerTop {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /* border: 2px solid rgb(0, 255, 42); */
+
+}
+
+.kiriFoto {
+    width: 370px;
+    height: 290px;
+}   
+
+.kiriFoto img {
+    width: 100%;
+    height: 100%;
+    /* border:2px solid rgb(93, 0, 255); */
+}
+
+.kanan {
+    width: 350px;
+    /* border:2px solid black; */
+}
+
+.iconandtext {
+    display: flex;
+    justify-content: space-between; 
+    line-height: 0px; 
+    /* background-color: beige; */
+    width: 230px;
+    margin-left: 8px;
+}
+
+i {
+    font-size: 28px;
+}
+
+.pembungkus1 {
+    width: 350px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.pembungkus2 {
+    width: 230px;
+    /* border:2px solid rgb(128, 255, 249); */
+}
+
+.pembungkus3 {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0px;
+    /* border:2px solid rgb(0, 204, 255); */
+}
+
+.pembungkus3 div {
+    margin-top: 10px;
+}
+
+.teks {
+    width: 760px;
+    margin: auto;
+    text-align: justify;
+}
+
+.teks p {
+   font-size: 14px;
+}
